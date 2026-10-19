@@ -1,0 +1,18 @@
+{
+  "name": "inm320-week3",
+  "version": "1.0.0",
+  "description": "",
+  "license": "private",
+  "private": true,
+  "author": "Victoria",
+  "scripts": {
+    "goservergo": "lite-server --baseDir=\"public\"",
+    "victoriaisawesome": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run victoriaisawesome\" \"npm run goservergo\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6",
+    "lite-server": "^2.6.1",
+    "sass": "^1.105.2"
+  }
+}
